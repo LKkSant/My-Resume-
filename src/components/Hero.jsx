@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { ArrowRight, Download} from "lucide-react";
 
-import Capturar from "../assets/Capturar.png";
+import Capturar from "../assets/Capturar.PNG";
 import Curriculo from "../assets/Curriculo.pdf";  
 
 export default function Hero() {
