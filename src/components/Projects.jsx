@@ -5,7 +5,7 @@ import github from "../assets/github.png";
 
 import larisfit from "../assets/larisfit.png";
 import dashboard from "../assets/dashboard.png";
-import ecommerce from "../assets/ecommerce.png";
+import ecommerce from "../assets/ecommerce.PNG";
 
 const projects = [
   {
