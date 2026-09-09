@@ -14,8 +14,8 @@ const projects = [
     description:
       "Loja virtual desenvolvida em React com foco em performance e experiência do usuário.",
     tech: ["React", "Tailwind", "Node.js"],
-    GitBranchPlusIcon: "#",
-    demo: "#",
+    GitBranchPlusIcon: "https://github.com/LKkSant/Ecommerce-Website-Layout-",
+    demo: "https://ecommerce-plum-one-92.vercel.app/",
   },
   {
     title: "Larisfit Virtual Store",
@@ -23,8 +23,8 @@ const projects = [
     description:
       "Loja virtual desenvolvida em React, para realização de pedidos na plataforma WhatsApp.",
     tech: ["React", "Tailwind", "Node.js"],
-    GitBranchPlusIcon: "#",
-    demo: "#",
+    GitBranchPlusIcon: "https://github.com/larisfit/larisfit",
+    demo: "https://laris-fit-website.vercel.app/",
   },
   {
     title: "Dashboard Financeiro",
@@ -33,7 +33,7 @@ const projects = [
       "Painel analítico para acompanhamento de indicadores financeiros utilizando Power BI.",
     tech: ["Power BI", "SQL Server", "DAX", "Excel"],
     GitBranchPlusIcon: "#",
-    demo: "#",
+    demo: "https://dashboard-financeiro.vercel.app/",
   },
 ];
 
@@ -101,7 +101,7 @@ export default function Projects() {
                 <div className="flex gap-4 mt-8">
                   <a
                     href={project.GitBranchPlusIcon}
-                    className="flex items-center gap-2 rounded-xl border border-white/10 px-5 py-3 hover:border-blue-500 transition"
+                    className="flex items-center gap-2 rounded-xl border border-white/10 px-5 cursor-pointer py-3 hover:border-blue-500 transition"
                   >
                     <GitBranchPlusIcon size={18} />
                     GitBranchPlusIcon
@@ -109,7 +109,7 @@ export default function Projects() {
 
                   <a
                     href={project.demo}
-                    className="flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3 hover:bg-blue-700 transition"
+                    className="flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3 cursor-pointer hover:bg-blue-700 transition"
                   >
                     <ExternalLink size={18} />
                     Demo
