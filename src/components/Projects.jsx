@@ -3,7 +3,7 @@ import { ExternalLink, GitBranchPlusIcon } from "lucide-react";
 import github from "../assets/github.png";
 
 
-import larisfit from "../assets/larisfit.png";
+import larisfit from "../assets/larisfit.PNG";
 import dashboard from "../assets/dashboard.png";
 import ecommerce from "../assets/ecommerce.PNG";
 
